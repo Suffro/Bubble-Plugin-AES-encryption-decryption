@@ -2,7 +2,7 @@
     "categories": {
         "0": "technical"
     },
-    "description": "This plugin allows you to encrypt and decrypt strings with a secret key using the AES (Advanced Encryption Standard) algorithm and the CryptoJS library.\n\nIMPORTANT:\nRemember to set a secret key in the plugin settings and keep it somewhere safe (losing your key can be painful).\n\nNOTE:\nThe plugin actions can be both client and server side, the server side actions are labeled with the word \"SERVER:\" at the beginning.\n\nNOTE:\nThis plugin supports AES-128, AES-192, and AES-256. It will pick the variant by the size of the key you pass in. If you use a passphrase, then it will generate a 256-bit key.",
+    "description": "This plugin allows you to encrypt and decrypt strings with a secret key using the AES (Advanced Encryption Standard) algorithm and the CryptoJS library.\n\nIMPORTANT:\nRemember to set a secret key in the plugin settings and keep it somewhere safe (losing your key can be painful).\n\nNOTE:\nThe plugin actions can be both client and server side, the server side actions are labeled with the word \"SERVER:\" at the beginning.\n\nNOTE:\nThis plugin supports AES-128, AES-192, and AES-256. It will pick the variant by the size of the key you pass in. If you use a passphrase, then it will generate a 256-bit key.\n\nINFO:\nThe Advanced Encryption Standard (AES) is a U.S. Federal Information Processing Standard (FIPS). It was selected after a 5-year process where 15 competing designs were evaluated.",
     "image": "//s3.amazonaws.com/appforest_uf/f1663118105160x526994942124952700/aes-encryption.png",
     "license": "open_source",
     "name": "AES encryption/decryption"
