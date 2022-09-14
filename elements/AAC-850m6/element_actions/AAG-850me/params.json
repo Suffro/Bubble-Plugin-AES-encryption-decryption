@@ -1,0 +1,19 @@
+{
+    "caption": "Decrypt string",
+    "fields": {
+        "AAI": {
+            "caption": "Encrypted string",
+            "doc": "",
+            "editor": "DynamicValue",
+            "name": "encrypted_string",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAK": {
+            "caption": "NOTE: Remember to set a secret key in the plugin settings",
+            "editor": "Label",
+            "name": "note",
+            "rank": 1
+        }
+    }
+}

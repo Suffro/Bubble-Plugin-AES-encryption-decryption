@@ -1,0 +1,23 @@
+{
+    "category": "plugins",
+    "display": "SERVER: AES encrypt string",
+    "fields": {
+        "AAR": {
+            "caption": "String",
+            "editor": "DynamicValue",
+            "name": "string",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "AAS": {
+            "caption": "Encrypted string",
+            "name": "encrypted_string",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

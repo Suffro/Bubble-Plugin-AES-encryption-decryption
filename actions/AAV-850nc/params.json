@@ -1,0 +1,23 @@
+{
+    "category": "plugins",
+    "display": "SERVER: AES decrypt string",
+    "fields": {
+        "AAU": {
+            "caption": "Encrypted string",
+            "editor": "DynamicValue",
+            "name": "encrypted_string",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "AAX": {
+            "caption": "Decrypted string",
+            "name": "decrypted_string",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

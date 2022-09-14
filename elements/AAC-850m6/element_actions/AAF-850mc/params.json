@@ -1,0 +1,19 @@
+{
+    "caption": "Encrypt string",
+    "fields": {
+        "AAH": {
+            "caption": "String",
+            "doc": "",
+            "editor": "DynamicValue",
+            "name": "string",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAJ": {
+            "caption": "NOTE: Remember to set a secret key in the plugin settings",
+            "editor": "Label",
+            "name": "note",
+            "rank": 1
+        }
+    }
+}
