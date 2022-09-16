@@ -1,0 +1,26 @@
+{
+    "caption": "Decrypt string",
+    "fields": {
+        "AAt": {
+            "caption": "Secret key",
+            "doc": "This key will be used to encrypt the string",
+            "editor": "DynamicValue",
+            "name": "secret_key",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAu": {
+            "caption": "Encrypted string",
+            "editor": "DynamicValue",
+            "name": "encrypted_string",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAw": {
+            "caption": "WARNING: Be careful using the private key on client side, you should not just copy and paste a private key here.",
+            "editor": "Label",
+            "name": "warning",
+            "rank": 2
+        }
+    }
+}

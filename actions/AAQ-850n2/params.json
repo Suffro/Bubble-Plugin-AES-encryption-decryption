@@ -8,6 +8,28 @@
             "name": "string",
             "rank": 0,
             "value": "text"
+        },
+        "AAh": {
+            "caption": "Use custom key",
+            "default_val": false,
+            "doc": "Check this box if you want to use the \"Custom key\" field below as you secret key, instead of the one set on the plugin settings.",
+            "editor": "Checkbox",
+            "name": "use_custom_key",
+            "rank": 1
+        },
+        "AAi": {
+            "caption": "Custom key",
+            "editor": "DynamicValue",
+            "name": "custom_key",
+            "optional": true,
+            "rank": 2,
+            "value": "text"
+        },
+        "AAm": {
+            "caption": "We advice to use the custom key in backend workflows only.",
+            "editor": "Label",
+            "name": "info",
+            "rank": 3
         }
     },
     "return_value": {

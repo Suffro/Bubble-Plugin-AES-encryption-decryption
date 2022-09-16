@@ -1,14 +1,14 @@
 function(instance, properties, context) {
-    const AES = CryptoJS.AES;
-    const SECRET = context.keys.SecretKey;
-    const ENC_DATA = properties.encrypted_string;
+	const AES = CryptoJS.AES;
+    let SECRET = properties.secret_key;
+    let ENC_DATA = properties.encrypted_string;
 
     if (!ENC_DATA) {
-        throw('The string to decrypt is missig');
+        console.error('The string to decrypt is missig');
         return;
     };
     if (!SECRET) {
-        throw('Secret key not set');
+        console.error('Secret key not set');
         return;
     };
 
@@ -20,6 +20,5 @@ function(instance, properties, context) {
     instance.publishState('decrypted_output', originalText);
 
     // Trigger event
-    instance.triggerEvent('string_decrypted', function(err){console.error(err)});
-        
+    instance.triggerEvent('string_decrypted');
 }

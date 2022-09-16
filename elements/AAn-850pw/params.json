@@ -2,40 +2,31 @@
     "add_is_visible": true,
     "category": "visual elements",
     "default_dim": {
-        "height": 35,
-        "width": 35
+        "height": 30,
+        "width": 30
     },
-    "display": "AES encrypt/decrypt",
+    "display": "AES Encrypt & Decrypt",
     "events": {
-        "AAO": {
+        "AAx": {
             "caption": "String encrypted",
             "name": "string_encrypted"
         },
-        "AAP": {
+        "AAy": {
             "caption": "String decrypted",
             "name": "string_decrypted"
         }
     },
     "icon": "ion-locked",
     "property_applications": {
-        "MinWidth": false,
         "resizable": true
     },
     "states": {
-        "AAD": {
-            "caption": "Encryption output",
+        "AAo": {
+            "caption": "output",
             "initialization_code": {
                 "fn": "function(properties, context) {\n\n\n\n}"
             },
-            "name": "encryption_output",
-            "value": "text"
-        },
-        "AAE": {
-            "caption": "Decrypted output",
-            "initialization_code": {
-                "fn": "function(properties, context) {\n\n\n\n}"
-            },
-            "name": "decrypted_output",
+            "name": "output",
             "value": "text"
         }
     }
