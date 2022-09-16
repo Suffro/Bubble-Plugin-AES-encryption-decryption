@@ -14,6 +14,10 @@
         "AAy": {
             "caption": "String decrypted",
             "name": "string_decrypted"
+        },
+        "ABC": {
+            "caption": "Outputs cleared",
+            "name": "outputs_cleared"
         }
     },
     "icon": "ion-locked",
@@ -21,12 +25,20 @@
         "resizable": true
     },
     "states": {
-        "AAo": {
-            "caption": "output",
+        "AAz": {
+            "caption": "Encryption output",
             "initialization_code": {
                 "fn": "function(properties, context) {\n\n\n\n}"
             },
-            "name": "output",
+            "name": "encryption_output",
+            "value": "text"
+        },
+        "ABA": {
+            "caption": "Decryption output",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "decryption_output",
             "value": "text"
         }
     }

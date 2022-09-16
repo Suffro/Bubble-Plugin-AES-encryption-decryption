@@ -17,7 +17,7 @@ function(instance, properties, context) {
     let originalText = bytes.toString(CryptoJS.enc.Utf8);
 
     // Publish state
-    instance.publishState('decrypted_output', originalText);
+    instance.publishState('decryption_output', originalText);
 
     // Trigger event
     instance.triggerEvent('string_decrypted');
